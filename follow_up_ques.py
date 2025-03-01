@@ -13,7 +13,7 @@ import re
 from difflib import SequenceMatcher
 
 # Set up Claude client
-client = anthropic.Anthropic(api_key="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")
+client = anthropic.Anthropic(api_key="")
 
 # Stores previous Q&A for each session
 conversation_history = {}
